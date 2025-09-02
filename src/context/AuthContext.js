@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const AuthContext = createContext();
 
 // Base API URL
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://ucms-be.vercel.app';
 
 // Initial state
 const initialState = {
