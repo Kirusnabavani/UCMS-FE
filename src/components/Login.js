@@ -165,33 +165,6 @@ const Login = () => {
             </div>
           </div>
         </div>
-
-        {/* Demo Credentials Card */}
-        <div className="mt-6 bg-white rounded-2xl shadow-lg border border-blue-100 overflow-hidden">
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 px-6 py-4 border-b border-blue-100">
-            <h3 className="font-semibold text-blue-900 flex items-center text-sm">
-              <FaUserShield className="mr-2" />
-              Admin Credentials
-            </h3>
-          </div>
-          <div className="px-6 py-4 space-y-3">
-            <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
-              <div className="flex items-center">
-                <FaUserGraduate className="mr-3 text-blue-600" />
-                <div>
-                  <p className="font-medium text-blue-900 text-sm">Admin Account</p>
-                  <p className="text-blue-700 text-xs">admin@university.com</p>
-                </div>
-              </div>
-              <span className="text-blue-600 font-mono text-sm bg-blue-100 px-2 py-1 rounded">admin123</span>
-            </div>
-            <div className="text-center">
-              <p className="text-gray-600 text-sm">
-                <strong>Student:</strong> Register a new account
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   )
